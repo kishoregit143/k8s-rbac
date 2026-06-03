@@ -12,17 +12,17 @@ data:
       - roboshop-trainee
       userarn: arn:aws:iam::307223751858:user/kishore
       username: kishore  
-    #   - roboshop-admin
-    #   userarn: arn:aws:iam::307223751858:user/ramesh
-    #   username: ramesh  
-    #   - groups:
-    #   - roboshop-trainee
-    #   userarn: arn:aws:iam::160885265516:user/john
-    #   username: john
-    # - groups:
-    #   - roboshop-trainee
-    #   userarn: arn:aws:iam::160885265516:user/rahim
-    #   username: rahim
+      - roboshop-admin
+      userarn: arn:aws:iam::307223751858:user/ramesh
+      username: ramesh  
+      - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::307223751858:user/john
+      username: john
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::307223751858:user/rahim
+      username: rahim
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-06-03T04:03:09Z"
